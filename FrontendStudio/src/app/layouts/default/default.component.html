@@ -1,0 +1,46 @@
+<div>
+  <mat-toolbar class="toolbar">
+    <a class="titulo">
+      <span>Studio LS</span>
+    </a>
+ </mat-toolbar>
+</div>
+
+  <mat-sidenav-container class="example-container" autosize>
+    <mat-sidenav #drawer class="example-sidenav" mode="side" [(opened)]="opened">
+      <img src="https://i.imgur.com/J4xnV4G.png" alt="emoji">
+      <div class="divider">
+        <mat-divider></mat-divider>
+      </div>
+      <div class="menu">
+        <button mat-button>
+          <mat-icon><span class="material-icons">
+            home
+            </span></mat-icon> &nbsp;
+          <span><a routerLink="./menu/home/home.module">Home</a></span>
+        </button>
+        <br>
+        <button mat-button>
+          <mat-icon><span class="material-icons">
+              label_important
+            </span></mat-icon> &nbsp;
+          <span><a routerLink="./home">Currículo</a></span>
+        </button>
+        <br>
+        <button mat-button>
+          <mat-icon><span class="material-icons">
+              collections
+            </span></mat-icon> &nbsp;
+          <span><a routerLink="./home">Galeria</a></span>
+        </button>
+        <br>
+
+      </div>
+    </mat-sidenav>
+
+    <div class="example-sidenav-content">
+
+    </div>
+
+  </mat-sidenav-container>
+

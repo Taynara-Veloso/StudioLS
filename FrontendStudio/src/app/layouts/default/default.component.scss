@@ -1,0 +1,51 @@
+.toolbar{
+  background-color: rgb(255, 203, 231);
+  height: 7vh;
+  .titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 55px;
+    font-size: 30px;
+  }
+}
+mat-sidenav-container{
+  height: 100%;
+}
+.example-container {
+  width: 100%;
+  height: 100%;
+
+  .example-sidenav-content {
+    background-color: #f5f5f5;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  img{
+    padding: 40px;
+    border-radius: 50%;
+    width: 200px;
+  }
+  .example-sidenav {
+    padding: auto;
+  }
+  .menu{
+    padding: 20px;
+
+    .material-icons{
+      color: rgb(236, 77, 162);
+      width: 40px;
+    }
+    a{
+      color: rgb(0, 0, 0);
+      font-size: 17px;
+      text-decoration: none;
+    }
+  }
+
+}
+.divider{
+  width: 100%;
+  height: 7px;
+  background-color: #f5f5f5;
+}
