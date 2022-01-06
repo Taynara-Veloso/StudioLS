@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, NgZone, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-default',
@@ -8,7 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class DefaultComponent implements OnInit {
 
   opened: boolean = true
-  constructor() { }
+  constructor(private router: Router,
+    private ngZone: NgZone) { }
 
   ngOnInit(): void {
   }

@@ -1,46 +1,58 @@
 <div>
-  <mat-toolbar class="toolbar">
+  <mat-toolbar class="toolbar" >
+    <button mat-icon-button (click)="sidenav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
     <a class="titulo">
       <span>Studio LS</span>
     </a>
- </mat-toolbar>
+    <span class="space"></span>
+    <span class="subtitulo">Ofereço amor em forma de sobrancelhas<span class="material-icons">
+      favorite
+      </span></span>
+  </mat-toolbar>
 </div>
-
-  <mat-sidenav-container class="example-container" autosize>
-    <mat-sidenav #drawer class="example-sidenav" mode="side" [(opened)]="opened">
-      <img src="https://i.imgur.com/J4xnV4G.png" alt="emoji">
+<mat-sidenav-container class="example-container" autosize>
+    <mat-sidenav #sidenav class="example-sidenav" mode="side" [(opened)]="opened">
+      <img src="https://i.imgur.com/mXwmplf.jpg" alt="fotoPerfil">
       <div class="divider">
         <mat-divider></mat-divider>
       </div>
       <div class="menu">
         <button mat-button>
-          <mat-icon><span class="material-icons">
+          <mat-icon>
+            <span class="material-icons">
             home
-            </span></mat-icon> &nbsp;
-          <span><a routerLink="./menu/home/home.module">Home</a></span>
+            </span>
+          </mat-icon> &nbsp;
+          <span><a>Home</a></span>
         </button>
         <br>
         <button mat-button>
-          <mat-icon><span class="material-icons">
+          <mat-icon>
+            <span class="material-icons">
               label_important
-            </span></mat-icon> &nbsp;
-          <span><a routerLink="./home">Currículo</a></span>
+            </span>
+          </mat-icon> &nbsp;
+          <span><a routerLink="">Currículo</a></span>
         </button>
         <br>
         <button mat-button>
-          <mat-icon><span class="material-icons">
+          <mat-icon>
+            <span class="material-icons">
               collections
-            </span></mat-icon> &nbsp;
-          <span><a routerLink="./home">Galeria</a></span>
+            </span>
+          </mat-icon> &nbsp;
+          <span><a routerLink="">Galeria</a></span>
         </button>
         <br>
-
       </div>
     </mat-sidenav>
-
-    <div class="example-sidenav-content">
-
+  <mat-sidenav-content>
+    <div class="container_app">
+      <router-outlet></router-outlet>
     </div>
+  </mat-sidenav-content>
 
-  </mat-sidenav-container>
+</mat-sidenav-container>
 
