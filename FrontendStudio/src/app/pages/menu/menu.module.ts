@@ -9,9 +9,6 @@ import { GaleriaFotosComponent } from './galeria-fotos/galeria-fotos.component';
 @NgModule({
   declarations: [
     MenuComponent,
-    CurriculoComponent,
-    GaleriaFotosComponent,
-
   ],
   imports: [
     MaterialModule,

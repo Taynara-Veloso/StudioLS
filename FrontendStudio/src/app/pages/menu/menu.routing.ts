@@ -13,6 +13,13 @@ const routes: Routes = [
     import('./home/home.module').then(
       (module) => module.HomeModule
     ),
+  },
+  {path: 'curriculo',
+  component: MenuComponent,
+  loadChildren: () =>
+    import('./curriculo/curriculo.module').then(
+      (module) => module.CurriculoModule
+    ),
   }
 
 ]
