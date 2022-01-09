@@ -4,3 +4,10 @@
 
 ## <h1 align="center">Studio LS </h1>
 
+### Features
+
+- [x] Menu
+- [x] Tudo sobre mim
+- [ ] Dicas de beleza
+- [ ] Curriculo
+- [ ] Galeria
