@@ -1,8 +1,8 @@
-<div align="center">
-<img height="180em" src="https://i.imgur.com/5RN9H85.gif" alt="logo">
+<div align="right">
+<img height="180em" src="https://i.imgur.com/eFdHyWZ.gif" alt="logo">
 </div>
+<h1 align="center">Studio LS </h1>
 
-## <h1 align="center">Studio LS </h1>
 
 <img height="100%" src="https://i.imgur.com/HYL8Iyy.jpg" >
 
