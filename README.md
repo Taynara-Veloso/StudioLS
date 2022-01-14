@@ -1,5 +1,5 @@
 <div>
-  <img src="https://i.imgur.com/NdNBU6a.png" alt="banner Studio LS">
+  <img height="450px" width="100%" src="https://i.imgur.com/NdNBU6a.png" alt="banner Studio LS">
 </div>
 
 ## <h1 align="center">Studio LS </h1>
