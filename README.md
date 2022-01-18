@@ -8,6 +8,7 @@
 	🚧   Em construção...  🚧
 </h3>
 
+<h1 align="center">Page Style</h1>
 
 <img height="100%" src="https://i.imgur.com/HYL8Iyy.jpg" >
 
