@@ -19,6 +19,7 @@
 - [ ] Dicas de beleza
 - [ ] Curriculo
 - [ ] Galeria
+- [ ] CRUD
 
 ### 🛠 Tecnologias
 
