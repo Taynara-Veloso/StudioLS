@@ -18,7 +18,7 @@
 - [x] Tudo sobre mim
 - [ ] Dicas de beleza
 - [ ] Curriculo
-- [ ] Galeria
+- [x] Galeria
 - [ ] Área de comentarios do usuario
 - [ ] CRUD
 
