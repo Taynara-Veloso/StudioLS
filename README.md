@@ -29,3 +29,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" /> [TypeScript](https://www.typescriptlang.org/) 
 
 - <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" /> [Angular](https://angular.io/docs) 
+
+- <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" /> [JavaScript](https://devdocs.io/javascript/)
+
+
