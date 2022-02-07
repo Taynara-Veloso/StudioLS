@@ -32,4 +32,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" /> [JavaScript](https://devdocs.io/javascript/)
 
-
+- <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" /> [CSharp](https://docs.microsoft.com/pt-br/dotnet/csharp/)
